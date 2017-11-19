@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Удаление книги";
+}
+
+<div>
+    <h3>Удаление книги</h3>
+    <form method="post">
+        <input type="hidden" value="@ViewBag.BookId" name="BookId" />
+        <h2>Вы точно хотите удалить эту книгу ?</h2>
+        <input type="submit" value="Да!" />
+    </form>
+</div>
+
